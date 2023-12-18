@@ -106,6 +106,10 @@ header .nav-item {
   -webkit-box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.25);
 }
+.categories .laptop img {
+  top: 0;
+  left: 10px;
+}
 .categories h3 {
   color: #000;
   text-align: right;
@@ -367,6 +371,7 @@ header .nav-item {
 .subscribe .notification .media_form input {
   border-radius: 54px 0px 0px 54px;
   border: 1px solid #000;
+  border-right: none;
   background: #DCE5E2;
   padding: 16px 184px 16px 32px;
   color: #000;
@@ -379,6 +384,7 @@ header .nav-item {
 }
 .subscribe .notification .media_form button {
   border-radius: 0px 200px 200px 0px;
+  border-left: none;
   background: #000;
   padding: 16px 33px;
   color: #FFF;
